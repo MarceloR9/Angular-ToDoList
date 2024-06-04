@@ -1,0 +1,12 @@
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI';
+  background-color: #22A6F2;
+}
+
+h1 {
+  text-align: center;
+}

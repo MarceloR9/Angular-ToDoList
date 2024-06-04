@@ -1,0 +1,7 @@
+<div class="todo-item" *ngFor="let todo of todos">
+  <div class="todo-text">
+    <input type="checkbox" [checked]="todo.completed" (change)="toggleTodoCompletion(todo.id)">
+    <span [class.completed]="todo.completed">{{ todo.title }}</span>
+  </div>
+  <button (click)="delete(todo.id)">Delete</button>
+</div>
